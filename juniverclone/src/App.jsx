@@ -1,5 +1,5 @@
 import React from 'react';
-import Login from './components/login.jsx';
+import Login from './Login/login.jsx';
 import Main from './components/Main.jsx';
 import NotFound from './components/NotFound.jsx';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';

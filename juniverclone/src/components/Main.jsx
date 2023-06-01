@@ -1,11 +1,12 @@
 import React from "react";
 import Header from './Headers/index'
+import Content from "./Main/contents";
 
 const Main = () => {
     return(
         <div>
             <Header />
-            <p>메인 페이지</p>
+            <Content />
         </div>
     );
 }
