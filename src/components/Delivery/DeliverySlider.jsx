@@ -18,8 +18,8 @@ export default () => {
             </S.StyleFlex>
             <S.StyleFlex>
                 <label>
-                    <S.ImgLanderingUp role="button" check={eattype} onClick={chooseEat} />
-                    <S.ImgLanderingDown role="button" check={eattype} onClick={chooseEat} />
+                    <S.ImgLanderingUp role="button" check={eattype} onClick={chooseEat} style={{margin:"auto"}} />
+                    <S.ImgLanderingDown role="button" check={eattype} onClick={chooseEat} style={{margin:"auto"}} />
                     <Link to="/serchStore">
                         <S.FindStore>매장찾기</S.FindStore>
                     </Link>
