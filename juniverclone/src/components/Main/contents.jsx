@@ -33,7 +33,7 @@ export default () => {
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
             >
-                <SwiperSlide><img src='https://img.lotteeatz.com/upload/mobile/2023/06/22/20230622083700107_3.jpg' style={{width: '100%', height:'100%' }} /></SwiperSlide>
+                <SwiperSlide><img src='https://img.lotteeatz.com/upload/mobile/2023/06/22/20230622083700107_3.jpg' style={{width: '100%', height:'100%',  }} /></SwiperSlide>
                 <SwiperSlide><img src='https://img.lotteeatz.com/upload/mobile/2023/05/30/20230530145424132_7.jpg' style={{width: '100%', height:'100%' }} /></SwiperSlide>
                 <SwiperSlide><img src='https://img.lotteeatz.com/upload/mobile/2023/06/01/2023060108385151_6.jpg' style={{width: '100%', height:'100%' }} /></SwiperSlide>
                 <SwiperSlide><img src='https://img.lotteeatz.com/upload/mobile/2023/05/22/2023052215405531_9.jpg' style={{width: '100%', height:'100%' }} /></SwiperSlide>

@@ -2,15 +2,12 @@ import styled from "styled-components";
 import Slider from "react-slick";
 
 export const StyledSlide = styled(Slider)`
-    position: relative;
     margin-top: 30px;
     margin-bottom: -40px;
     width: 100%;
 
     .slick-list {
-        position: absolute;
         width: 700px;
-        height: 370px;
         margin: 0 auto;
         overflow: hidden;
         top: -30px;
@@ -23,7 +20,6 @@ export const StyledSlide = styled(Slider)`
 
     .slick-track {
         display: flex;
-        height: 100%;
     }
 
     .slick-dots {
@@ -40,7 +36,6 @@ export const StyledSlide = styled(Slider)`
     }
 
     .slick-prev {
-        position: absolute;
         top: -20px;
         right: -800px;
         cursor: pointer;
@@ -52,7 +47,6 @@ export const StyledSlide = styled(Slider)`
     }
 
     .slick-next {
-        position: absolute;
         top: -20px;
         left: 700px;
         cursor: pointer;
