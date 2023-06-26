@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-import * as S from './StyleDelivery';
+import { Route, Link } from "react-router-dom";
+import * as S from './DeliveryStyled';
 
 export default () => {
     const [eattype, setEattype] = useState(true)
@@ -13,12 +14,15 @@ export default () => {
             <S.StyleFlex>
                 <S.StyleAdder />
                 <S.StyleBordText>주소를 설정해 주세요!</S.StyleBordText>
-                <S.AdderSetting><span>주소설정</span></S.AdderSetting>
+                <S.AdderSetting role="button"><span>주소설정</span></S.AdderSetting>
             </S.StyleFlex>
             <S.StyleFlex>
                 <label>
                     <S.ImgLanderingUp role="button" check={eattype} onClick={chooseEat} />
                     <S.ImgLanderingDown role="button" check={eattype} onClick={chooseEat} />
+                    <Link to="/serchStore">
+                        <S.FindStore>매장찾기</S.FindStore>
+                    </Link>
                 </label>
                 슬라이드 만들어야함
             </S.StyleFlex>

@@ -53,7 +53,6 @@ export const ImgLanderingDown = styled.div`
     width: 3em;
     height: 3em;
     border: 1px solid #000000;
-    align-items: center;
     ${(props) => 
         props.check &&`
             background-color: #00A5B9;
@@ -68,5 +67,15 @@ export const ImgLanderingDown = styled.div`
             background-repeat: no-repeat;
         `
     }
+`;
+
+export const FindStore = styled.div`
+    width: 3em;
+    height: 1.5em;
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 13px;
 `;
 

@@ -3,13 +3,17 @@ import Header from './Headers/index'
 import Content from "./Main/contents";  
 import Footer from './Footer/footer';
 import Add from './Delivery/DeliverySlider';
+import RightSide from './rightSide/rightsidecom';
 
 const Main = () => {
     return(
-        <div>
-            <Header />
-            <Content />       
-            <Add />
+        <div style={{display:"flex"}}>
+            <div>
+                <Header />
+                <Content />       
+                <Add />
+            </div>
+            <RightSide />
         </div>
     );
 }
