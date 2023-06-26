@@ -1,14 +1,15 @@
 .swiper-button-prev,
 .swiper-button-next{
         background-color: #fff;
-        opacity: 0.5;
-        padding: 15px 15px;
+        border: 1px solid black;
         border-radius: 20px;
+        width: 2rem;
+        height: 2rem;
         color: black !important;
     }
 
 .swiper-button-prev:after,
 .swiper-button-next:after {
-        font-size: 1.1rem !important;
-        font-weight: 600 !important;
-    }
+        font-size: 0.5rem ;
+        font-weight: 500;
+}
